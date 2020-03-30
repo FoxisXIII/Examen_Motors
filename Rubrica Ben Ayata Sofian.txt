@@ -1,0 +1,15 @@
+Punto 1: Terrain, visible  (0,5p)
+
+Punto 2: Inputs, creado el que resta vida (Boton P) y el que te hace "morir" Boton O  (0,5p)
+
+Punto 3: Triggers, item de vida recolectable cuando tienes menos del maximo. Trigger de muerte al fondo, con un cartel de peligro, visible. 
+	 Y trigger que cambia a animacion de agachado al entrar en el, es invisible y esta hacia la derecha mirando de cara al cartel de peligro.
+	 Sale un mensaje en pantalla cuando entras o sales de el. (1p)
+
+Punto 4: Secuence de Daylight en loop infinito, hay un point light y un spot light en la parte trasera del terrain, en la colina (0,5p)
+
+Punto 5: HUD, muestra en forma de texto el tiempo que pasa, la vida que tiene y la cantidad de corazones obtenidos (1p)
+
+Punto 6: Estados animacion, añadido el estado de idle agachado, al entrar al trigger de animacion y el de muerte al pulsar la tecla P (1p)
+
+Punto 7: Sonido, creado sonido al morir, se cambia su pich aleatoriamente, y lo lanza la animacion en un evento.
